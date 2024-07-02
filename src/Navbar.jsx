@@ -130,6 +130,9 @@ const Navbar = () => {
             {links}
         </ul>
       </div>
+      <div className="navbar-end">
+         <a className="btn  mr-3" href="https://drive.google.com/file/d/1OxYll_P_45jmlzNvZVTGKABn4ZTJRCP2/view?usp=drive_link">resume</a>
+      </div>
       </div>
      
     
