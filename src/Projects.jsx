@@ -15,6 +15,7 @@ const Projects = () => {
                         <h4 className="text-xl font-bold mb-2">Online Survey (Full Stack)</h4>
                         <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online survey</a></p>
                         <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/programming-hero-web-course1/b9a12-client-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/programming-hero-web-course1/b9a12-server-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
                             <li>Implement a secure user authentication system using JWT tokens</li>
@@ -40,6 +41,7 @@ const Projects = () => {
                         <h4 className="text-xl font-bold mb-2">Online Group-Study assignment (Full Stack)</h4>
                         <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-11-3c42f.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online group study</a></p>
                         <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet11-client?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/Porgramming-Hero-web-course/b9a11-server-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
                             <li>authentication base web site</li>
@@ -65,6 +67,7 @@ const Projects = () => {
                         <h4 className="text-xl font-bold mb-2">Tourism Spot Management (Full Stack)</h4>
                         <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-10-4f92e.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Tourism spot</a></p>
                         <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet10-client" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/nafis200/assignmnet10-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
                             <li>Add, update place (CRUD)</li>
