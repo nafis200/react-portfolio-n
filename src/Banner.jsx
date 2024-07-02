@@ -2,7 +2,6 @@
 
 import "animate.css";
 import image1 from "../public/imgonline-com-ua-Transparent-background-dCx8Jbt05t (1).jpg"
-import image2 from "../public/web-development1.png"
 
 const Banner = () => {
   return (
