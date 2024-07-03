@@ -51,11 +51,11 @@ const Navbar = () => {
           Education{" "}
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="email" smooth={true} duration={500}>
           Sent email{" "}
         </Link>
-      </li>
+      </li> */}
 
       <section className="flex items-center">
         <label className="flex gap-2">

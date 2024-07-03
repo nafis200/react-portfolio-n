@@ -40,9 +40,9 @@ const Email = () => {
   };
 
   return (
-    <div>
+    <div id="">
       <section>
-        <h1 className="text-center text-4xl font-bold">Contact by email</h1>
+        <h1 className="text-center text-4xl font-bold">Email Me</h1>
         <div className="hero mb-5">
           <div className="hero-content">
             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

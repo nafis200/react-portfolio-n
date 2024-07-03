@@ -7,7 +7,7 @@ import { SiCodeforces,SiCodechef,SiLeetcode } from "react-icons/si";
 import { GoCodeReview } from "react-icons/go";
 const Skills = () => {
     return (
-        <div className="section skills-section mx-4 md:mx-10 lg:mx-14 mb-20" id="skills">
+        <div className="section skills-section mx-4 md:mx-10 mt-24 lg:mx-14 mb-20" id="skills">
             <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Skills  </h2>
             <h1 className="text-center">I solved almost 800+ problem in various judge such links</h1>
             <div className="flex justify-center items-center mt-2 space-x-6 mb-20">

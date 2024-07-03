@@ -4,7 +4,7 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className="section projects-section mx-4 md:mx-10 lg:mx-14 mb-20" id="projects">
+        <div className="section projects-section mx-4 md:mx-10 lg:mx-14 mb-20" id="">
             <Fade>
                 <h2 className="hover:text-blue-600 text-xl text-center md:text-[40px]  font-bold mb-10"> Projects </h2>
             </Fade>
