@@ -2,6 +2,7 @@ import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
 import Education from "./Education";
+import Email from "./Email";
 import Empty from "./Empty";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -31,6 +32,9 @@ const Home = () => {
             </Element>
             <Element name="Education">
                <Education></Education>
+            </Element>
+            <Element name="email">
+            <Email></Email>
             </Element>
         </div>
     );

@@ -19,9 +19,8 @@ const Contact = () => {
                 <FaLinkedin />
 
                 </a>
-                
-               
             </div>
+        
         </div>
     );
 };

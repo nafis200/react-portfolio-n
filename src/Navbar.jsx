@@ -51,6 +51,11 @@ const Navbar = () => {
           Education{" "}
         </Link>
       </li>
+      <li>
+        <Link to="email" smooth={true} duration={500}>
+          Sent email{" "}
+        </Link>
+      </li>
 
       <section className="flex items-center">
         <label className="flex gap-2">
