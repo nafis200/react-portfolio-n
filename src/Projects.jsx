@@ -12,24 +12,24 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <Zoom>
                     <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
-                        <h4 className="text-xl font-bold mb-2">Online Survey (Full Stack)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online survey</a></p>
-                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/programming-hero-web-course1/b9a12-client-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
-                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/programming-hero-web-course1/b9a12-server-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <h4 className="text-xl font-bold mb-2">Mangomart (Full Stack)[Team project](Manager) </h4>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://mangomart-5f69b.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">MangoMart</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/Mangomart-typescript/tree/main?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/nafis200/Mangomart-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
                             <li>Implement a secure user authentication system using JWT tokens</li>
-                            <li>Role-based access control with multiple roles such as user, pro-user, admin, and surveyor.</li>
-                            <li>mplement fine-grained access control to specify who can view, edit, or manage surveys.</li>
+                            <li>Integrate two types of payment systems: Stripe and SSLCommerz.</li>
+                            <li>The user order mango see mango details .</li>
                         </ul>
                         <p className="mb-2"><strong>Technology:</strong></p>
-                        <p>Front-end: React.js, HTML, CSS, JavaScript, Axios, Tailwind CSS, Firebase</p>
+                        <p>Front-end: React.js, HTML, CSS, JavaScript,Typescript,Axios, Tailwind CSS, Firebase</p>
                         <p>Back-end: Node.js, Express.js, MongoDB, JWT</p>
                         <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://mangomart-5f69b.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaExternalLinkAlt className="text-2xl" />
                             </a>
-                            <a href="https://github.com/programming-hero-web-course1/b9a12-client-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://github.com/nafis200/Mangomart-typescript/tree/main?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaGithub className="text-2xl" />
                             </a>
                         </div>
@@ -38,25 +38,24 @@ const Projects = () => {
 
                 <Zoom>
                     <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
-                        <h4 className="text-xl font-bold mb-2">Online Group-Study assignment (Full Stack)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-11-3c42f.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online group study</a></p>
-                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet11-client?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
-                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/Porgramming-Hero-web-course/b9a11-server-side-nafis200" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <h4 className="text-xl font-bold mb-2">Blood Bank [Full Stack] (team project)[Member]  </h4>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://bloodbridge-bloodbank.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Blood Bank</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/Rakesh01999/BloodBridge-Frontend?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/Rakesh01999/BloodBridge-Backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
-                            <li>authentication base web site</li>
-                            <li>pagination</li>
-                            <li>includes Crud operation
-                            apply pagination</li>
+                            <li>Create, view, update, and delete donor and patient profiles.</li>
+                            <li>Manage blood group stocks and approve or reject blood donation and request submissions</li>
+                            <li>Dashboard shows blood group stock levels, donor and patient counts, and the status of blood request </li>
                         </ul>
                         <p className="mb-2"><strong>Technology:</strong></p>
                         <p>Front-end: React.js, HTML, CSS, JavaScript, Tailwind CSS, Firebase</p>
                         <p>Back-end: Node.js, Express.js, MongoDB</p>
                         <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://assignment-11-3c42f.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://bloodbridge-bloodbank.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaExternalLinkAlt className="text-2xl" />
                             </a>
-                            <a href="https://github.com/nafis200/assignmnet11-client?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://github.com/Rakesh01999/BloodBridge-Frontend?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaGithub className="text-2xl" />
                             </a>
                         </div>
@@ -64,24 +63,24 @@ const Projects = () => {
                 </Zoom>
                 <Zoom>
                     <div className="skill-category bg-base-100 border-2 border-blue-400 hover:border-cyan-300 p-6 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-cyan-200 transition-shadow duration-300">
-                        <h4 className="text-xl font-bold mb-2">Tourism Spot Management (Full Stack)</h4>
-                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-10-4f92e.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Tourism spot</a></p>
-                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignmnet10-client" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
-                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/nafis200/assignmnet10-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <h4 className="text-xl font-bold mb-2">Online Survey [Full Stack]</h4>
+                        <p className="mb-2"><strong>Live-link:</strong> <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Online Survey</a></p>
+                        <p className="mb-2"><strong>Client-side:</strong> <a href="https://github.com/nafis200/assignment12?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
+                        <p className="mb-2"><strong>Server-side:</strong> <a href="https://github.com/nafis200/assignment12-backend" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Repo</a></p>
                         <p className="mb-2"><strong>Features:</strong></p>
                         <ul className="list-disc list-inside mb-2">
-                            <li>Add, update place (CRUD)</li>
-                            <li>Detailed tourism place Info</li>
-                            <li>Applied sort according to cost</li>
+                            <li>Implement a secure user authentication system with JWT tokens</li>
+                            <li>Integrate a secure payment gateway to pay the money. </li>
+                            <li>The surveyor can create, delete, and update their surveys </li>
                         </ul>
                         <p className="mb-2"><strong>Technology:</strong></p>
                         <p>Front-end: React.js, HTML, CSS, JavaScript, Tailwind CSS, Firebase</p>
                         <p>Back-end: Node.js, Express.js, MongoDB</p>
                         <div className="text-center flex justify-center space-x-4 mt-4">
-                            <a href="https://assignment-10-4f92e.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://assignment-12-80409.web.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaExternalLinkAlt className="text-2xl" />
                             </a>
-                            <a href="https://github.com/nafis200/assignmnet10-client" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+                            <a href="https://github.com/nafis200/assignment12?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                                 <FaGithub className="text-2xl" />
                             </a>
                         </div>

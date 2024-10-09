@@ -40,6 +40,7 @@ const Skills = () => {
                             <li>C</li>
                             <li>C++</li>
                             <li>JavaScript</li>
+                            <li>TypeScript</li>
                         </ul>
                     </div>
                 </Slide>
